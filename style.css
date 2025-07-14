@@ -192,10 +192,10 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--txt
   filter: brightness(0) invert(1); /* black icon */
 }
 
-.icon.instagram::before { background-image: url('icons/instagram.svg'); }
-.icon.twitter::before { background-image: url('icons/twitter.svg'); }
-.icon.tiktok::before { background-image: url('icons/tiktok.svg'); }
-.icon.email::before { background-image: url('icons/mail.svg'); }
+.icon.instagram::before { background-image: url('instagram.svg'); }
+.icon.twitter::before { background-image: url('twitter.svg'); }
+.icon.tiktok::before { background-image: url('tiktok.svg'); }
+.icon.email::before { background-image: url('mail.svg'); }
 
 /* Blur shapes */
 .blob {
