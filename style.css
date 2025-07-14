@@ -366,3 +366,19 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--txt
   object-fit: contain;
   background: #000; /* or your card background */
 }
+
+.icon.instagram::before {
+  background-image: url('instagram.svg');
+}
+
+.icon.twitter::before {
+  background-image: url('twitter.svg');
+}
+
+.icon.tiktok::before {
+  background-image: url('tiktok.svg');
+}
+
+.icon.email::before {
+  background-image: url('mail.svg');
+}
