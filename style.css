@@ -29,6 +29,10 @@ body { background: linear-gradient(to bottom, var(--bg-900), var(--bg-800)); col
 @media (min-width: 900px) { .hero { grid-template-columns: 1fr 1fr; } }
 
 .hero__visual img { max-width: 280px; border-radius: 12px; display: block; }
+.hero__visual img:hover {
+  transform: scale(2) rotate(10deg);
+  filter: brightness(2);
+}
 
 .hero__tags { color: var(--gold); font-weight: 600; margin-bottom: .5rem; }
 .hero__copy h1 { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 1rem; }
@@ -427,15 +431,6 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--txt
 
 .clickable-image:hover {
   transform: scale(1.02);
-}
-
-.hero__visual img {
-  transition: transform 0.4s ease, filter 0.3s ease;
-}
-
-.hero__visual img:hover {
-  transform: scale(1.05) rotate(1deg);
-  filter: brightness(1.1);
 }
 
 
