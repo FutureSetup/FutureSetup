@@ -429,4 +429,13 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--txt
   transform: scale(1.02);
 }
 
+.hero__visual img {
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.hero__visual img:hover {
+  transform: scale(1.05) rotate(1deg);
+  filter: brightness(1.1);
+}
+
 
