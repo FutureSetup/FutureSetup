@@ -439,4 +439,15 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--txt
   transform: scale(1.02);
 }
 
+.contact-section {
+  position: relative;
+}
 
+.contact-section .blob {
+  pointer-events: none;
+}
+
+.contact-section .wrapper {
+  position: relative;
+  z-index: 1;
+}
