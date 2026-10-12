@@ -52,7 +52,7 @@ body { background: linear-gradient(to bottom, var(--bg-900), var(--bg-800)); col
 
 /* ===== ABSTRACT SHAPES ===== */
 .hero-bg { position: absolute; inset: 0; background: linear-gradient(135deg, transparent, rgba(255,255,255,.03)); mix-blend-mode: overlay; }
-.blob { position: absolute; border-radius: 50%; background: var(--accent); opacity: .12; filter: blur(70px); pointer-events, none; }
+.blob { position: absolute; border-radius: 50%; background: var(--accent); opacity: .12; filter: blur(70px); pointer-events: none; }
 .b1 { top: 10%; left: 15%; width: 220px; height: 220px; }
 .b2 { top: 55%; left: 5%; width: 160px; height: 160px; }
 .b3 { top: 25%; right: 10%; width: 200px; height: 200px; }
